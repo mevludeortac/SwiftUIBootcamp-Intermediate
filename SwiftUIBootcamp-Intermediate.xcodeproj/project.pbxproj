@@ -13,6 +13,7 @@
 		FC17C9B32827F3160063603F /* LongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC17C9B22827F3160063603F /* LongPressGesture.swift */; };
 		FC35FA2F282847E800DE18FF /* RotationGestureOfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC35FA2E282847E800DE18FF /* RotationGestureOfBootcamp.swift */; };
 		FC35FA35282850C700DE18FF /* DragGestureOfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC35FA34282850C700DE18FF /* DragGestureOfBootcamp.swift */; };
+		FC35FA3A2828652D00DE18FF /* DragGestureTwoOfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC35FA392828652D00DE18FF /* DragGestureTwoOfBootcamp.swift */; };
 		FCEB442F282819B4006D491C /* MagnificationGestureOfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEB442E282819B4006D491C /* MagnificationGestureOfBootcamp.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		FC17C9B22827F3160063603F /* LongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGesture.swift; sourceTree = "<group>"; };
 		FC35FA2E282847E800DE18FF /* RotationGestureOfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureOfBootcamp.swift; sourceTree = "<group>"; };
 		FC35FA34282850C700DE18FF /* DragGestureOfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureOfBootcamp.swift; sourceTree = "<group>"; };
+		FC35FA392828652D00DE18FF /* DragGestureTwoOfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureTwoOfBootcamp.swift; sourceTree = "<group>"; };
 		FCEB442E282819B4006D491C /* MagnificationGestureOfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureOfBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +68,7 @@
 				FCEB442E282819B4006D491C /* MagnificationGestureOfBootcamp.swift */,
 				FC35FA2E282847E800DE18FF /* RotationGestureOfBootcamp.swift */,
 				FC35FA34282850C700DE18FF /* DragGestureOfBootcamp.swift */,
+				FC35FA392828652D00DE18FF /* DragGestureTwoOfBootcamp.swift */,
 			);
 			path = "SwiftUIBootcamp-Intermediate";
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				FC17C9A22827F16F0063603F /* SwiftUIBootcamp_IntermediateApp.swift in Sources */,
 				FC17C9B32827F3160063603F /* LongPressGesture.swift in Sources */,
 				FC35FA2F282847E800DE18FF /* RotationGestureOfBootcamp.swift in Sources */,
+				FC35FA3A2828652D00DE18FF /* DragGestureTwoOfBootcamp.swift in Sources */,
 				FC35FA35282850C700DE18FF /* DragGestureOfBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
