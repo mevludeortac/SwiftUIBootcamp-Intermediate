@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIBootcamp_IntermediateApp: App {
     var body: some Scene {
         WindowGroup {
-            MagnificationGestureOfBootcamp()
+            RotationGestureOfBootcamp()
         }
     }
 }
