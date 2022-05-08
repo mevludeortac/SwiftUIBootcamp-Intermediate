@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		FC17C9A22827F16F0063603F /* SwiftUIBootcamp_IntermediateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC17C9A12827F16F0063603F /* SwiftUIBootcamp_IntermediateApp.swift */; };
-		FC17C9A42827F16F0063603F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC17C9A32827F16F0063603F /* ContentView.swift */; };
 		FC17C9A62827F1830063603F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC17C9A52827F1830063603F /* Assets.xcassets */; };
 		FC17C9A92827F1830063603F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC17C9A82827F1830063603F /* Preview Assets.xcassets */; };
+		FC17C9B32827F3160063603F /* LongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC17C9B22827F3160063603F /* LongPressGesture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FC17C99E2827F16F0063603F /* SwiftUIBootcamp-Intermediate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUIBootcamp-Intermediate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC17C9A12827F16F0063603F /* SwiftUIBootcamp_IntermediateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBootcamp_IntermediateApp.swift; sourceTree = "<group>"; };
-		FC17C9A32827F16F0063603F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FC17C9A52827F1830063603F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC17C9A82827F1830063603F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FC17C9AA2827F1830063603F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC17C9B22827F3160063603F /* LongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGesture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +53,10 @@
 			isa = PBXGroup;
 			children = (
 				FC17C9A12827F16F0063603F /* SwiftUIBootcamp_IntermediateApp.swift */,
-				FC17C9A32827F16F0063603F /* ContentView.swift */,
 				FC17C9A52827F1830063603F /* Assets.xcassets */,
 				FC17C9AA2827F1830063603F /* Info.plist */,
 				FC17C9A72827F1830063603F /* Preview Content */,
+				FC17C9B22827F3160063603F /* LongPressGesture.swift */,
 			);
 			path = "SwiftUIBootcamp-Intermediate";
 			sourceTree = "<group>";
@@ -138,8 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC17C9A42827F16F0063603F /* ContentView.swift in Sources */,
 				FC17C9A22827F16F0063603F /* SwiftUIBootcamp_IntermediateApp.swift in Sources */,
+				FC17C9B32827F3160063603F /* LongPressGesture.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
