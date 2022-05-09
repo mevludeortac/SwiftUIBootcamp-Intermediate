@@ -14,6 +14,7 @@
 		FC35FA2F282847E800DE18FF /* RotationGestureOfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC35FA2E282847E800DE18FF /* RotationGestureOfBootcamp.swift */; };
 		FC35FA35282850C700DE18FF /* DragGestureOfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC35FA34282850C700DE18FF /* DragGestureOfBootcamp.swift */; };
 		FC35FA3A2828652D00DE18FF /* DragGestureTwoOfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC35FA392828652D00DE18FF /* DragGestureTwoOfBootcamp.swift */; };
+		FC3A7F082829516400391504 /* ScrollViewReaderOfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A7F072829516400391504 /* ScrollViewReaderOfBootcamp.swift */; };
 		FCEB442F282819B4006D491C /* MagnificationGestureOfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEB442E282819B4006D491C /* MagnificationGestureOfBootcamp.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		FC35FA2E282847E800DE18FF /* RotationGestureOfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureOfBootcamp.swift; sourceTree = "<group>"; };
 		FC35FA34282850C700DE18FF /* DragGestureOfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureOfBootcamp.swift; sourceTree = "<group>"; };
 		FC35FA392828652D00DE18FF /* DragGestureTwoOfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureTwoOfBootcamp.swift; sourceTree = "<group>"; };
+		FC3A7F072829516400391504 /* ScrollViewReaderOfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderOfBootcamp.swift; sourceTree = "<group>"; };
 		FCEB442E282819B4006D491C /* MagnificationGestureOfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureOfBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,15 +62,12 @@
 		FC17C9A02827F16F0063603F /* SwiftUIBootcamp-Intermediate */ = {
 			isa = PBXGroup;
 			children = (
+				FC35FA3C282875BB00DE18FF /* Gestures */,
 				FC17C9A12827F16F0063603F /* SwiftUIBootcamp_IntermediateApp.swift */,
 				FC17C9A52827F1830063603F /* Assets.xcassets */,
 				FC17C9AA2827F1830063603F /* Info.plist */,
 				FC17C9A72827F1830063603F /* Preview Content */,
-				FC17C9B22827F3160063603F /* LongPressGesture.swift */,
-				FCEB442E282819B4006D491C /* MagnificationGestureOfBootcamp.swift */,
-				FC35FA2E282847E800DE18FF /* RotationGestureOfBootcamp.swift */,
-				FC35FA34282850C700DE18FF /* DragGestureOfBootcamp.swift */,
-				FC35FA392828652D00DE18FF /* DragGestureTwoOfBootcamp.swift */,
+				FC3A7F072829516400391504 /* ScrollViewReaderOfBootcamp.swift */,
 			);
 			path = "SwiftUIBootcamp-Intermediate";
 			sourceTree = "<group>";
@@ -79,6 +78,18 @@
 				FC17C9A82827F1830063603F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FC35FA3C282875BB00DE18FF /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				FC17C9B22827F3160063603F /* LongPressGesture.swift */,
+				FCEB442E282819B4006D491C /* MagnificationGestureOfBootcamp.swift */,
+				FC35FA2E282847E800DE18FF /* RotationGestureOfBootcamp.swift */,
+				FC35FA34282850C700DE18FF /* DragGestureOfBootcamp.swift */,
+				FC35FA392828652D00DE18FF /* DragGestureTwoOfBootcamp.swift */,
+			);
+			path = Gestures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +164,7 @@
 				FCEB442F282819B4006D491C /* MagnificationGestureOfBootcamp.swift in Sources */,
 				FC17C9A22827F16F0063603F /* SwiftUIBootcamp_IntermediateApp.swift in Sources */,
 				FC17C9B32827F3160063603F /* LongPressGesture.swift in Sources */,
+				FC3A7F082829516400391504 /* ScrollViewReaderOfBootcamp.swift in Sources */,
 				FC35FA2F282847E800DE18FF /* RotationGestureOfBootcamp.swift in Sources */,
 				FC35FA3A2828652D00DE18FF /* DragGestureTwoOfBootcamp.swift in Sources */,
 				FC35FA35282850C700DE18FF /* DragGestureOfBootcamp.swift in Sources */,
