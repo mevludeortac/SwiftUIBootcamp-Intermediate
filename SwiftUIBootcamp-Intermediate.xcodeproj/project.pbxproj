@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC039D8D282A98F600399759 /* MaskOfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC039D8C282A98F600399759 /* MaskOfBootcamp.swift */; };
 		FC17C9A22827F16F0063603F /* SwiftUIBootcamp_IntermediateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC17C9A12827F16F0063603F /* SwiftUIBootcamp_IntermediateApp.swift */; };
 		FC17C9A62827F1830063603F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC17C9A52827F1830063603F /* Assets.xcassets */; };
 		FC17C9A92827F1830063603F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC17C9A82827F1830063603F /* Preview Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC039D8C282A98F600399759 /* MaskOfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskOfBootcamp.swift; sourceTree = "<group>"; };
 		FC17C99E2827F16F0063603F /* SwiftUIBootcamp-Intermediate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUIBootcamp-Intermediate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC17C9A12827F16F0063603F /* SwiftUIBootcamp_IntermediateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBootcamp_IntermediateApp.swift; sourceTree = "<group>"; };
 		FC17C9A52827F1830063603F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				FC17C9AA2827F1830063603F /* Info.plist */,
 				FC17C9A72827F1830063603F /* Preview Content */,
 				FC3A7F1128299FE900391504 /* MultipleSheetsOfBootcamp.swift */,
+				FC039D8C282A98F600399759 /* MaskOfBootcamp.swift */,
 			);
 			path = "SwiftUIBootcamp-Intermediate";
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				FC3A7F0C2829887000391504 /* GeometryReaderOfBootcamp.swift in Sources */,
 				FC17C9B32827F3160063603F /* LongPressGesture.swift in Sources */,
 				FC3A7F1228299FE900391504 /* MultipleSheetsOfBootcamp.swift in Sources */,
+				FC039D8D282A98F600399759 /* MaskOfBootcamp.swift in Sources */,
 				FC3A7F082829516400391504 /* ScrollViewReaderOfBootcamp.swift in Sources */,
 				FC35FA2F282847E800DE18FF /* RotationGestureOfBootcamp.swift in Sources */,
 				FC35FA3A2828652D00DE18FF /* DragGestureTwoOfBootcamp.swift in Sources */,
