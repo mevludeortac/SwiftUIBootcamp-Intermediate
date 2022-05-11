@@ -24,10 +24,9 @@ class SoundManager {
         do{
             player = try AVAudioPlayer(contentsOf: url)
             player?.play()
-        }catch{
+        } catch{
             print("error: \(error.localizedDescription)")
         }
-        
     }
 }
 struct SoundOfBootcamp: View {
