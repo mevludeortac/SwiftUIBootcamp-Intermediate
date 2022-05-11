@@ -23,6 +23,7 @@
 		FC3A7F1228299FE900391504 /* MultipleSheetsOfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A7F1128299FE900391504 /* MultipleSheetsOfBootcamp.swift */; };
 		FCEB442F282819B4006D491C /* MagnificationGestureOfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEB442E282819B4006D491C /* MagnificationGestureOfBootcamp.swift */; };
 		FCEBFB7D282BDB9A00F5B1E5 /* HapticsAndVibraionsOfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEBFB7C282BDB9A00F5B1E5 /* HapticsAndVibraionsOfBootcamp.swift */; };
+		FCEBFB80282BF8A500F5B1E5 /* LocalNotificationOfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEBFB7F282BF8A500F5B1E5 /* LocalNotificationOfBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		FC3A7F1128299FE900391504 /* MultipleSheetsOfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsOfBootcamp.swift; sourceTree = "<group>"; };
 		FCEB442E282819B4006D491C /* MagnificationGestureOfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureOfBootcamp.swift; sourceTree = "<group>"; };
 		FCEBFB7C282BDB9A00F5B1E5 /* HapticsAndVibraionsOfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsAndVibraionsOfBootcamp.swift; sourceTree = "<group>"; };
+		FCEBFB7F282BF8A500F5B1E5 /* LocalNotificationOfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationOfBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				FC039D8C282A98F600399759 /* MaskOfBootcamp.swift */,
 				FC039D92282AF8D200399759 /* SoundOfBootcamp.swift */,
 				FCEBFB7C282BDB9A00F5B1E5 /* HapticsAndVibraionsOfBootcamp.swift */,
+				FCEBFB7F282BF8A500F5B1E5 /* LocalNotificationOfBootcamp.swift */,
 			);
 			path = "SwiftUIBootcamp-Intermediate";
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCEBFB80282BF8A500F5B1E5 /* LocalNotificationOfBootcamp.swift in Sources */,
 				FCEB442F282819B4006D491C /* MagnificationGestureOfBootcamp.swift in Sources */,
 				FC17C9A22827F16F0063603F /* SwiftUIBootcamp_IntermediateApp.swift in Sources */,
 				FC3A7F0C2829887000391504 /* GeometryReaderOfBootcamp.swift in Sources */,
