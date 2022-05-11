@@ -24,6 +24,7 @@
 		FCEB442F282819B4006D491C /* MagnificationGestureOfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEB442E282819B4006D491C /* MagnificationGestureOfBootcamp.swift */; };
 		FCEBFB7D282BDB9A00F5B1E5 /* HapticsAndVibraionsOfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEBFB7C282BDB9A00F5B1E5 /* HapticsAndVibraionsOfBootcamp.swift */; };
 		FCEBFB80282BF8A500F5B1E5 /* LocalNotificationOfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEBFB7F282BF8A500F5B1E5 /* LocalNotificationOfBootcamp.swift */; };
+		FCEBFB86282C1EC400F5B1E5 /* HashableOfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEBFB85282C1EC400F5B1E5 /* HashableOfBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		FCEB442E282819B4006D491C /* MagnificationGestureOfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureOfBootcamp.swift; sourceTree = "<group>"; };
 		FCEBFB7C282BDB9A00F5B1E5 /* HapticsAndVibraionsOfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsAndVibraionsOfBootcamp.swift; sourceTree = "<group>"; };
 		FCEBFB7F282BF8A500F5B1E5 /* LocalNotificationOfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationOfBootcamp.swift; sourceTree = "<group>"; };
+		FCEBFB85282C1EC400F5B1E5 /* HashableOfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableOfBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				FC039D92282AF8D200399759 /* SoundOfBootcamp.swift */,
 				FCEBFB7C282BDB9A00F5B1E5 /* HapticsAndVibraionsOfBootcamp.swift */,
 				FCEBFB7F282BF8A500F5B1E5 /* LocalNotificationOfBootcamp.swift */,
+				FCEBFB85282C1EC400F5B1E5 /* HashableOfBootcamp.swift */,
 			);
 			path = "SwiftUIBootcamp-Intermediate";
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 				FC17C9A22827F16F0063603F /* SwiftUIBootcamp_IntermediateApp.swift in Sources */,
 				FC3A7F0C2829887000391504 /* GeometryReaderOfBootcamp.swift in Sources */,
 				FC17C9B32827F3160063603F /* LongPressGesture.swift in Sources */,
+				FCEBFB86282C1EC400F5B1E5 /* HashableOfBootcamp.swift in Sources */,
 				FCEBFB7D282BDB9A00F5B1E5 /* HapticsAndVibraionsOfBootcamp.swift in Sources */,
 				FC3A7F1228299FE900391504 /* MultipleSheetsOfBootcamp.swift in Sources */,
 				FC039D8D282A98F600399759 /* MaskOfBootcamp.swift in Sources */,
