@@ -25,6 +25,7 @@
 		FCEBFB7D282BDB9A00F5B1E5 /* HapticsAndVibraionsOfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEBFB7C282BDB9A00F5B1E5 /* HapticsAndVibraionsOfBootcamp.swift */; };
 		FCEBFB80282BF8A500F5B1E5 /* LocalNotificationOfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEBFB7F282BF8A500F5B1E5 /* LocalNotificationOfBootcamp.swift */; };
 		FCEBFB86282C1EC400F5B1E5 /* HashableOfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEBFB85282C1EC400F5B1E5 /* HashableOfBootcamp.swift */; };
+		FCEBFB89282C3A8E00F5B1E5 /* SortFilterAndMapInDataArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEBFB88282C3A8E00F5B1E5 /* SortFilterAndMapInDataArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		FCEBFB7C282BDB9A00F5B1E5 /* HapticsAndVibraionsOfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsAndVibraionsOfBootcamp.swift; sourceTree = "<group>"; };
 		FCEBFB7F282BF8A500F5B1E5 /* LocalNotificationOfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationOfBootcamp.swift; sourceTree = "<group>"; };
 		FCEBFB85282C1EC400F5B1E5 /* HashableOfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableOfBootcamp.swift; sourceTree = "<group>"; };
+		FCEBFB88282C3A8E00F5B1E5 /* SortFilterAndMapInDataArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortFilterAndMapInDataArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				FCEBFB7C282BDB9A00F5B1E5 /* HapticsAndVibraionsOfBootcamp.swift */,
 				FCEBFB7F282BF8A500F5B1E5 /* LocalNotificationOfBootcamp.swift */,
 				FCEBFB85282C1EC400F5B1E5 /* HashableOfBootcamp.swift */,
+				FCEBFB88282C3A8E00F5B1E5 /* SortFilterAndMapInDataArray.swift */,
 			);
 			path = "SwiftUIBootcamp-Intermediate";
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				FC3A7F082829516400391504 /* ScrollViewReaderOfBootcamp.swift in Sources */,
 				FC35FA2F282847E800DE18FF /* RotationGestureOfBootcamp.swift in Sources */,
 				FC35FA3A2828652D00DE18FF /* DragGestureTwoOfBootcamp.swift in Sources */,
+				FCEBFB89282C3A8E00F5B1E5 /* SortFilterAndMapInDataArray.swift in Sources */,
 				FC35FA35282850C700DE18FF /* DragGestureOfBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
