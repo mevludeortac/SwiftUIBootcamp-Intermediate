@@ -21,6 +21,8 @@
 		FC3A7F082829516400391504 /* ScrollViewReaderOfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A7F072829516400391504 /* ScrollViewReaderOfBootcamp.swift */; };
 		FC3A7F0C2829887000391504 /* GeometryReaderOfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A7F0B2829887000391504 /* GeometryReaderOfBootcamp.swift */; };
 		FC3A7F1228299FE900391504 /* MultipleSheetsOfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A7F1128299FE900391504 /* MultipleSheetsOfBootcamp.swift */; };
+		FCBB619A28315E37006CC52C /* CoreDataOfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBB619928315E36006CC52C /* CoreDataOfBootcamp.swift */; };
+		FCBB619F28316560006CC52C /* Singer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCBB619D28316560006CC52C /* Singer.xcdatamodeld */; };
 		FCEB442F282819B4006D491C /* MagnificationGestureOfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEB442E282819B4006D491C /* MagnificationGestureOfBootcamp.swift */; };
 		FCEBFB7D282BDB9A00F5B1E5 /* HapticsAndVibraionsOfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEBFB7C282BDB9A00F5B1E5 /* HapticsAndVibraionsOfBootcamp.swift */; };
 		FCEBFB80282BF8A500F5B1E5 /* LocalNotificationOfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEBFB7F282BF8A500F5B1E5 /* LocalNotificationOfBootcamp.swift */; };
@@ -45,6 +47,8 @@
 		FC3A7F072829516400391504 /* ScrollViewReaderOfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderOfBootcamp.swift; sourceTree = "<group>"; };
 		FC3A7F0B2829887000391504 /* GeometryReaderOfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderOfBootcamp.swift; sourceTree = "<group>"; };
 		FC3A7F1128299FE900391504 /* MultipleSheetsOfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsOfBootcamp.swift; sourceTree = "<group>"; };
+		FCBB619928315E36006CC52C /* CoreDataOfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataOfBootcamp.swift; sourceTree = "<group>"; };
+		FCBB619E28316560006CC52C /* Singer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Singer.xcdatamodel; sourceTree = "<group>"; };
 		FCEB442E282819B4006D491C /* MagnificationGestureOfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureOfBootcamp.swift; sourceTree = "<group>"; };
 		FCEBFB7C282BDB9A00F5B1E5 /* HapticsAndVibraionsOfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsAndVibraionsOfBootcamp.swift; sourceTree = "<group>"; };
 		FCEBFB7F282BF8A500F5B1E5 /* LocalNotificationOfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationOfBootcamp.swift; sourceTree = "<group>"; };
@@ -91,6 +95,7 @@
 		FC17C9A02827F16F0063603F /* SwiftUIBootcamp-Intermediate */ = {
 			isa = PBXGroup;
 			children = (
+				FCBB619C28316528006CC52C /* CoreData */,
 				FC039D95282AFFDB00399759 /* Sounds */,
 				FC3A7F0A2829884300391504 /* Readers */,
 				FC35FA3C282875BB00DE18FF /* Gestures */,
@@ -136,6 +141,15 @@
 				FC3A7F0B2829887000391504 /* GeometryReaderOfBootcamp.swift */,
 			);
 			path = Readers;
+			sourceTree = "<group>";
+		};
+		FCBB619C28316528006CC52C /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				FCBB619928315E36006CC52C /* CoreDataOfBootcamp.swift */,
+				FCBB619D28316560006CC52C /* Singer.xcdatamodeld */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +223,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCBB619F28316560006CC52C /* Singer.xcdatamodeld in Sources */,
+				FCBB619A28315E37006CC52C /* CoreDataOfBootcamp.swift in Sources */,
 				FCEBFB80282BF8A500F5B1E5 /* LocalNotificationOfBootcamp.swift in Sources */,
 				FCEB442F282819B4006D491C /* MagnificationGestureOfBootcamp.swift in Sources */,
 				FC17C9A22827F16F0063603F /* SwiftUIBootcamp_IntermediateApp.swift in Sources */,
@@ -412,6 +428,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FCBB619D28316560006CC52C /* Singer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FCBB619E28316560006CC52C /* Singer.xcdatamodel */,
+			);
+			currentVersion = FCBB619E28316560006CC52C /* Singer.xcdatamodel */;
+			path = Singer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FC17C9962827F16E0063603F /* Project object */;
 }
