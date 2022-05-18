@@ -21,6 +21,8 @@
 		FC3A7F082829516400391504 /* ScrollViewReaderOfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A7F072829516400391504 /* ScrollViewReaderOfBootcamp.swift */; };
 		FC3A7F0C2829887000391504 /* GeometryReaderOfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A7F0B2829887000391504 /* GeometryReaderOfBootcamp.swift */; };
 		FC3A7F1228299FE900391504 /* MultipleSheetsOfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A7F1128299FE900391504 /* MultipleSheetsOfBootcamp.swift */; };
+		FC568DD6283565FF00023560 /* CoreDataRelationshipOfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC568DD5283565FF00023560 /* CoreDataRelationshipOfBootcamp.swift */; };
+		FC97C5E0283584E4009748D5 /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC97C5DE283584E4009748D5 /* CoreDataContainer.xcdatamodeld */; };
 		FCBB619A28315E37006CC52C /* CoreDataOfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBB619928315E36006CC52C /* CoreDataOfBootcamp.swift */; };
 		FCBB619F28316560006CC52C /* Singer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCBB619D28316560006CC52C /* Singer.xcdatamodeld */; };
 		FCEB442F282819B4006D491C /* MagnificationGestureOfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEB442E282819B4006D491C /* MagnificationGestureOfBootcamp.swift */; };
@@ -47,6 +49,8 @@
 		FC3A7F072829516400391504 /* ScrollViewReaderOfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderOfBootcamp.swift; sourceTree = "<group>"; };
 		FC3A7F0B2829887000391504 /* GeometryReaderOfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderOfBootcamp.swift; sourceTree = "<group>"; };
 		FC3A7F1128299FE900391504 /* MultipleSheetsOfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsOfBootcamp.swift; sourceTree = "<group>"; };
+		FC568DD5283565FF00023560 /* CoreDataRelationshipOfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipOfBootcamp.swift; sourceTree = "<group>"; };
+		FC97C5DF283584E4009748D5 /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
 		FCBB619928315E36006CC52C /* CoreDataOfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataOfBootcamp.swift; sourceTree = "<group>"; };
 		FCBB619E28316560006CC52C /* Singer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Singer.xcdatamodel; sourceTree = "<group>"; };
 		FCEB442E282819B4006D491C /* MagnificationGestureOfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureOfBootcamp.swift; sourceTree = "<group>"; };
@@ -147,7 +151,9 @@
 			isa = PBXGroup;
 			children = (
 				FCBB619928315E36006CC52C /* CoreDataOfBootcamp.swift */,
+				FC568DD5283565FF00023560 /* CoreDataRelationshipOfBootcamp.swift */,
 				FCBB619D28316560006CC52C /* Singer.xcdatamodeld */,
+				FC97C5DE283584E4009748D5 /* CoreDataContainer.xcdatamodeld */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -235,6 +241,8 @@
 				FC3A7F1228299FE900391504 /* MultipleSheetsOfBootcamp.swift in Sources */,
 				FC039D8D282A98F600399759 /* MaskOfBootcamp.swift in Sources */,
 				FC039D93282AF8D200399759 /* SoundOfBootcamp.swift in Sources */,
+				FC568DD6283565FF00023560 /* CoreDataRelationshipOfBootcamp.swift in Sources */,
+				FC97C5E0283584E4009748D5 /* CoreDataContainer.xcdatamodeld in Sources */,
 				FC3A7F082829516400391504 /* ScrollViewReaderOfBootcamp.swift in Sources */,
 				FC35FA2F282847E800DE18FF /* RotationGestureOfBootcamp.swift in Sources */,
 				FC35FA3A2828652D00DE18FF /* DragGestureTwoOfBootcamp.swift in Sources */,
@@ -430,6 +438,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		FC97C5DE283584E4009748D5 /* CoreDataContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FC97C5DF283584E4009748D5 /* CoreDataContainer.xcdatamodel */,
+			);
+			currentVersion = FC97C5DF283584E4009748D5 /* CoreDataContainer.xcdatamodel */;
+			path = CoreDataContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		FCBB619D28316560006CC52C /* Singer.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
