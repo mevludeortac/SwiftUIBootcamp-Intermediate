@@ -7,6 +7,9 @@
 
 import SwiftUI
 import CoreData
+
+                //VIEWMODEL
+
 class CoreDataViewModel: ObservableObject{
     
     let container: NSPersistentContainer
@@ -55,6 +58,8 @@ class CoreDataViewModel: ObservableObject{
         }
     }
 }
+
+
 struct CoreDataOfBootcamp: View {
     @StateObject var vm = CoreDataViewModel()
     @State var singerTextField : String = ""
